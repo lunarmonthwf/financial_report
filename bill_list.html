@@ -1,0 +1,727 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>bill_list</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/bill_list/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/bill_list/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u47" class="ax_default label">
+        <div id="u47_div" class=""></div>
+        <div id="u47_text" class="text ">
+          <p><span>bill_date</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u48" class="ax_default box_1">
+        <div id="u48_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u49" class="ax_default label">
+        <div id="u49_div" class=""></div>
+        <div id="u49_text" class="text ">
+          <p><span>logstic_stage</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u50" class="ax_default droplist">
+        <select id="u50_input">
+          <option value="全部">全部</option>
+          <option value="bc-仓库">bc-仓库</option>
+          <option value="bc-航空">bc-航空</option>
+          <option value="bc-清关派送">bc-清关派送</option>
+          <option value="cc-全段">cc-全段</option>
+          <option value="bc-其他">bc-其他</option>
+          <option value="cc-其他">cc-其他</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u51" class="ax_default label">
+        <div id="u51_div" class=""></div>
+        <div id="u51_text" class="text ">
+          <p><span>supplier</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u52" class="ax_default droplist">
+        <select id="u52_input">
+          <option value="全部">全部</option>
+          <option value="供应商名称-bc">供应商名称-bc</option>
+          <option value="供应商名称-cc">供应商名称-cc</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u53" class="ax_default label">
+        <div id="u53_div" class=""></div>
+        <div id="u53_text" class="text ">
+          <p><span>statue</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u54" class="ax_default droplist">
+        <select id="u54_input">
+          <option value="全部">全部</option>
+          <option value="待业务侧审核">待业务侧审核</option>
+          <option value="待财务侧审核">待财务侧审核</option>
+          <option value="完成审核待付款">完成审核待付款</option>
+          <option value="已付款">已付款</option>
+          <option value="业务侧审核不通过">业务侧审核不通过</option>
+          <option value="财务侧审核不通过">财务侧审核不通过</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u55" class="ax_default box_1">
+        <div id="u55_div" class=""></div>
+        <div id="u55_text" class="text ">
+          <p><span>search</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u56" class="ax_default box_1">
+        <div id="u56_div" class=""></div>
+        <div id="u56_text" class="text ">
+          <p><span>+upload</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u57" class="ax_default label">
+        <div id="u57_div" class=""></div>
+        <div id="u57_text" class="text ">
+          <p><span>bill_id</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u58" class="ax_default box_1">
+        <div id="u58_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u59" class="ax_default label">
+        <div id="u59_div" class=""></div>
+        <div id="u59_text" class="text ">
+          <p><span>bill_title</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u60" class="ax_default box_1">
+        <div id="u60_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u61" class="ax_default line">
+        <img id="u61_img" class="img " src="images/bill_list/u61.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u62" class="ax_default box_1">
+        <div id="u62_div" class=""></div>
+        <div id="u62_text" class="text ">
+          <p><span>bill_id</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u63" class="ax_default box_1">
+        <div id="u63_div" class=""></div>
+        <div id="u63_text" class="text ">
+          <p><span>bill_title</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u64" class="ax_default box_1">
+        <div id="u64_div" class=""></div>
+        <div id="u64_text" class="text ">
+          <p><span>amount</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u65" class="ax_default box_1">
+        <div id="u65_div" class=""></div>
+        <div id="u65_text" class="text ">
+          <p><span>action</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u66" class="ax_default box_1">
+        <div id="u66_div" class=""></div>
+        <div id="u66_text" class="text ">
+          <p><span>statue</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u67" class="ax_default box_1">
+        <div id="u67_div" class=""></div>
+        <div id="u67_text" class="text ">
+          <p><span>232323</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u68" class="ax_default box_1">
+        <div id="u68_div" class=""></div>
+        <div id="u68_text" class="text ">
+          <p><span>EP-warehouse-UK-BC-2021.12-£2k</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u69" class="ax_default box_1">
+        <div id="u69_div" class=""></div>
+        <div id="u69_text" class="text ">
+          <p><span>£2000</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u70" class="ax_default box_1">
+        <div id="u70_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u71" class="ax_default box_1">
+        <div id="u71_div" class=""></div>
+        <div id="u71_text" class="text ">
+          <p><span>paid</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u72" class="ax_default label">
+        <div id="u72_div" class=""></div>
+        <div id="u72_text" class="text ">
+          <p><span>delete</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u73" class="ax_default label">
+        <div id="u73_div" class=""></div>
+        <div id="u73_text" class="text ">
+          <p><span style="text-decoration:underline;">detail</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u74" class="ax_default box_1">
+        <div id="u74_div" class=""></div>
+        <div id="u74_text" class="text ">
+          <p><span>232321</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u75" class="ax_default box_1">
+        <div id="u75_div" class=""></div>
+        <div id="u75_text" class="text ">
+          <p><span>JUNAN-CC-12- $162,311.27</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u76" class="ax_default box_1">
+        <div id="u76_div" class=""></div>
+        <div id="u76_text" class="text ">
+          <p><span>&nbsp;$162,311.27</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u77" class="ax_default box_1">
+        <div id="u77_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u78" class="ax_default box_1">
+        <div id="u78_div" class=""></div>
+        <div id="u78_text" class="text ">
+          <p><span>pending_reveiw_business</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u79" class="ax_default label">
+        <div id="u79_div" class=""></div>
+        <div id="u79_text" class="text ">
+          <p><span style="text-decoration:underline;">delete</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u80" class="ax_default label">
+        <div id="u80_div" class=""></div>
+        <div id="u80_text" class="text ">
+          <p><span style="text-decoration:underline;">detail</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u81" class="ax_default box_1">
+        <div id="u81_div" class=""></div>
+        <div id="u81_text" class="text ">
+          <p><span>232325</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u82" class="ax_default box_1">
+        <div id="u82_div" class=""></div>
+        <div id="u82_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">（宁波保税）</span><span style="font-family:'ArialMT', 'Arial';">-BC</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">关税</span><span style="font-family:'ArialMT', 'Arial';">-20211221RMB7,509.28</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u83" class="ax_default box_1">
+        <div id="u83_div" class=""></div>
+        <div id="u83_text" class="text ">
+          <p><span>¥7,509.28</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u84" class="ax_default box_1">
+        <div id="u84_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u85" class="ax_default box_1">
+        <div id="u85_div" class=""></div>
+        <div id="u85_text" class="text ">
+          <p><span>pending_reveiw_finance</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u86" class="ax_default label">
+        <div id="u86_div" class=""></div>
+        <div id="u86_text" class="text ">
+          <p><span style="text-decoration:underline;">delete</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u87" class="ax_default label">
+        <div id="u87_div" class=""></div>
+        <div id="u87_text" class="text ">
+          <p><span style="text-decoration:underline;">detail</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u88" class="ax_default box_1">
+        <div id="u88_div" class=""></div>
+        <div id="u88_text" class="text ">
+          <p><span>232326</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u89" class="ax_default box_1">
+        <div id="u89_div" class=""></div>
+        <div id="u89_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">（宁波保税）</span><span style="font-family:'ArialMT', 'Arial';">-BC</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">境内配送</span><span style="font-family:'ArialMT', 'Arial';">-20211221RMB34,509.28</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u90" class="ax_default box_1">
+        <div id="u90_div" class=""></div>
+        <div id="u90_text" class="text ">
+          <p><span>¥34,509.28</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u91" class="ax_default box_1">
+        <div id="u91_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u92" class="ax_default box_1">
+        <div id="u92_div" class=""></div>
+        <div id="u92_text" class="text ">
+          <p><span>pending_payment</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u93" class="ax_default label">
+        <div id="u93_div" class=""></div>
+        <div id="u93_text" class="text ">
+          <p><span>delete</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u94" class="ax_default label">
+        <div id="u94_div" class=""></div>
+        <div id="u94_text" class="text ">
+          <p><span style="text-decoration:underline;">detail</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u95" class="ax_default box_1">
+        <div id="u95_div" class=""></div>
+        <div id="u95_text" class="text ">
+          <p><span>&lt;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u96" class="ax_default box_1">
+        <div id="u96_div" class=""></div>
+        <div id="u96_text" class="text ">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u97" class="ax_default box_1">
+        <div id="u97_div" class=""></div>
+        <div id="u97_text" class="text ">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u98" class="ax_default box_1">
+        <div id="u98_div" class=""></div>
+        <div id="u98_text" class="text ">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u99" class="ax_default box_1">
+        <div id="u99_div" class=""></div>
+        <div id="u99_text" class="text ">
+          <p><span>...</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u100" class="ax_default box_1">
+        <div id="u100_div" class=""></div>
+        <div id="u100_text" class="text ">
+          <p><span>8</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u101" class="ax_default box_1">
+        <div id="u101_div" class=""></div>
+        <div id="u101_text" class="text ">
+          <p><span>9</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u102" class="ax_default box_1">
+        <div id="u102_div" class=""></div>
+        <div id="u102_text" class="text ">
+          <p><span>10</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u103" class="ax_default box_1">
+        <div id="u103_div" class=""></div>
+        <div id="u103_text" class="text ">
+          <p><span>&gt;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u104" class="ax_default droplist">
+        <select id="u104_input">
+          <option value="10/p">10/p</option>
+          <option value="15/p">15/p</option>
+          <option value="20/p">20/p</option>
+          <option value="25/p">25/p</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u105" class="ax_default label">
+        <div id="u105_div" class=""></div>
+        <div id="u105_text" class="text ">
+          <p><span>。。。。。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u106" class="ax_default label">
+        <div id="u106_div" class=""></div>
+        <div id="u106_text" class="text ">
+          <p><span>logstic bill/bill_list</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u107" class="ax_default box_1">
+        <div id="u107_div" class=""></div>
+        <div id="u107_text" class="text ">
+          <p><span>232326</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u108" class="ax_default box_1">
+        <div id="u108_div" class=""></div>
+        <div id="u108_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">（宁波保税）</span><span style="font-family:'ArialMT', 'Arial';">-BC</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">境内配送</span><span style="font-family:'ArialMT', 'Arial';">-20211221RMB34,509.28</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u109" class="ax_default box_1">
+        <div id="u109_div" class=""></div>
+        <div id="u109_text" class="text ">
+          <p><span>¥34,509.28</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u110" class="ax_default box_1">
+        <div id="u110_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u111" class="ax_default box_1">
+        <div id="u111_div" class=""></div>
+        <div id="u111_text" class="text ">
+          <p><span>reject_business</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u112" class="ax_default label">
+        <div id="u112_div" class=""></div>
+        <div id="u112_text" class="text ">
+          <p><span style="text-decoration:underline;">delete</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u113" class="ax_default label">
+        <div id="u113_div" class=""></div>
+        <div id="u113_text" class="text ">
+          <p><span style="text-decoration:underline;">detail</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u114" class="ax_default box_1">
+        <div id="u114_div" class=""></div>
+        <div id="u114_text" class="text ">
+          <p><span>232326</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u115" class="ax_default box_1">
+        <div id="u115_div" class=""></div>
+        <div id="u115_text" class="text ">
+          <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">（宁波保税）</span><span style="font-family:'ArialMT', 'Arial';">-BC</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">境内配送</span><span style="font-family:'ArialMT', 'Arial';">-20211221RMB34,509.28</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u116" class="ax_default box_1">
+        <div id="u116_div" class=""></div>
+        <div id="u116_text" class="text ">
+          <p><span>¥34,509.28</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u117" class="ax_default box_1">
+        <div id="u117_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u118" class="ax_default box_1">
+        <div id="u118_div" class=""></div>
+        <div id="u118_text" class="text ">
+          <p><span>reject_finance</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u119" class="ax_default label">
+        <div id="u119_div" class=""></div>
+        <div id="u119_text" class="text ">
+          <p><span style="text-decoration:underline;">delete</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u120" class="ax_default label">
+        <div id="u120_div" class=""></div>
+        <div id="u120_text" class="text ">
+          <p><span style="text-decoration:underline;">detail</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u121" class="ax_default label">
+        <div id="u121_div" class=""></div>
+        <div id="u121_text" class="text ">
+          <p><span>1.业务侧+财务审核都完成</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u122" class="ax_default paragraph">
+        <div id="u122_div" class=""></div>
+        <div id="u122_text" class="text ">
+          <p><span>帐单不可删除的状态：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u123" class="ax_default label">
+        <div id="u123_div" class=""></div>
+        <div id="u123_text" class="text ">
+          <p><span>2.帐单已支付</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u124" class="ax_default paragraph">
+        <div id="u124_div" class=""></div>
+        <div id="u124_text" class="text ">
+          <p><span>当一个帐单被删除时，这个帐单附带的相关材料也会被丢弃</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (New Master 1) -->
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u126" class="ax_default box_1">
+        <div id="u126_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u127" class="ax_default box_1">
+        <div id="u127_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u128" class="ax_default label">
+        <div id="u128_div" class=""></div>
+        <div id="u128_text" class="text ">
+          <p><span>—logstic bill</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u129" class="ax_default label">
+        <div id="u129_div" class=""></div>
+        <div id="u129_text" class="text ">
+          <p><span>wangfan</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u130" class="ax_default label">
+        <div id="u130_div" class=""></div>
+        <div id="u130_text" class="text ">
+          <p><span>bill_list</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u131" class="ax_default label">
+        <div id="u131_div" class=""></div>
+        <div id="u131_text" class="text ">
+          <p><span>audit_list</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u132" class="ax_default label">
+        <div id="u132_div" class=""></div>
+        <div id="u132_text" class="text ">
+          <p><span>basic setting</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u133" class="ax_default paragraph">
+        <div id="u133_div" class=""></div>
+        <div id="u133_text" class="text ">
+          <p><span>上传：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u134" class="ax_default paragraph">
+        <div id="u134_div" class=""></div>
+        <div id="u134_text" class="text ">
+          <p><span>1.对于bc：选择物流阶段，对应供应商</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u135" class="ax_default paragraph">
+        <div id="u135_div" class=""></div>
+        <div id="u135_text" class="text ">
+          <p><span>2.对于cc：选择供应商</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u136" class="ax_default paragraph">
+        <div id="u136_div" class=""></div>
+        <div id="u136_text" class="text ">
+          <p><span>bill_date：帐单款项对应的时间而不是帐单产生的时间，例：在3月为2月的帐单付款，bill_data为二月</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u137" class="ax_default paragraph">
+        <div id="u137_div" class=""></div>
+        <div id="u137_text" class="text ">
+          <p><span>bill_id、bill_title：由系统生成</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
