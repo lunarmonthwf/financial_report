@@ -1809,3 +1809,45 @@
   visibility:hidden;
   word-wrap:break-word;
 }
+#u378_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:195px;
+  height:33px;
+  background:inherit;
+  background-color:rgba(0, 153, 255, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(0, 153, 255, 1);
+  border-radius:10px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  color:#FFFFFF;
+}
+#u378 {
+  border-width:0px;
+  position:absolute;
+  left:566px;
+  top:1489px;
+  width:195px;
+  height:33px;
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  color:#FFFFFF;
+}
+#u378_text {
+  border-width:0px;
+  position:absolute;
+  left:2px;
+  top:8px;
+  width:191px;
+  word-wrap:break-word;
+}
